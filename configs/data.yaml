@@ -1,0 +1,67 @@
+project:
+  name: ASVspoof2019-PA-Explainable-Detection
+  access: PA
+  seed: 42
+data:
+  root: /path/to/ASVspoof2019_archive
+  access_dir: PA
+  protocols:
+    train: ASVspoof2019_PA_cm_protocols/ASVspoof2019.PA.cm.train.trn.txt
+    dev: ASVspoof2019_PA_cm_protocols/ASVspoof2019.PA.cm.dev.trl.txt
+    eval: ASVspoof2019_PA_cm_protocols/ASVspoof2019.PA.cm.eval.trl.txt
+  audio_dirs:
+    train: ASVspoof2019_PA_train/flac
+    dev: ASVspoof2019_PA_dev/flac
+    eval: ASVspoof2019_PA_eval/flac
+  overrides:
+    train_protocol: null
+    dev_protocol: null
+    eval_protocol: null
+    train_audio_dir: null
+    dev_audio_dir: null
+    eval_audio_dir: null
+audio:
+  expected_sample_rate: 16000
+  allowed_channels:
+  - 1
+  - 2
+  min_duration_seconds: 0.1
+  max_duration_seconds: null
+  decode_check: true
+processing:
+  validation_workers: 1
+  manifest_workers: 1
+output:
+  processed_dir: data/processed
+  manifest_dir: data/processed/manifests
+  validation_dir: data/processed/validation
+  cache_dir: data/processed/cache
+features:
+  tkeo:
+    preemphasis: 0.97
+    n_filters: 40
+    fmin: 10.0
+    fmax: 8000.0
+    bandwidth_hz: null
+    frame_length_ms: 20.0
+    frame_shift_ms: 10.0
+    n_ceps: 40
+    delta_window: 2
+    eps: 1.0e-12
+  acoustic:
+    frame_length_ms: 25.0
+    frame_shift_ms: 12.5
+    lp_order: 12
+    n_fft: 512
+    n_filters: 20
+    n_ceps: 20
+    delta_window: 2
+    eps: 1.0e-10
+model:
+  xgboost:
+    n_estimators: 2000
+    max_depth: 5
+    learning_rate: 0.03
+    early_stopping_rounds: 100
+    n_jobs: 6
+    class_weight: balanced

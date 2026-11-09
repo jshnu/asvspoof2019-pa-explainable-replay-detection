@@ -1,0 +1,29 @@
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Notebook runtime artifacts
+.ipynb_checkpoints/
+
+# Local credentials and environment-specific files
+.env
+.env.*
+!.env.example
+configs/data.notebook.local.yaml
+configs/.preflight_data_*.yaml
+configs/.data_smoke_*.yaml
+
+# Dataset, intermediate data, and generated results
+data/raw/
+data/processed/
+results/
+checkpoints/
+logs/
+*.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
