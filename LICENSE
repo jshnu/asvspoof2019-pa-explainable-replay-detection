@@ -2,13 +2,26 @@ MIT License
 
 Copyright (c) 2026 jshnu
 
-Except for third-party components explicitly identified as
-being subject to separate licenses, this MIT License applies
-only to original code authored for this project.
+Scope of this license
 
-In particular, the code in tools/tdcf/ and src/features/cqt.py is excluded from
-this license and remains subject to its original
-CC BY-NC-SA 4.0 license and associated notices.
+This MIT License applies only to original code authored for this project, except
+for components and files identified below as third-party material or adaptations
+of third-party material. Those exclusions retain their separate license terms.
+
+The following are excluded from this MIT License:
+
+- tools/tdcf/ — the ASVspoof 2019 Python t-DCF evaluation implementation,
+  distributed under CC BY-NC-SA 4.0. See tools/tdcf/LICENSE.
+- src/features/cqt.py — a Python port/adaptation of routines from the EURECOM
+  CQCC package and the CQT Toolbox 2013. The relevant adapted material is
+  distributed under CC BY-NC-SA 4.0, as a later version with the same license
+  elements as the CQT Toolbox's CC BY-NC-SA 3.0 license. See
+  licenses/CQCC_EURECOM_LICENSE.txt, licenses/CQT_TOOLBOX_LICENSE.txt, and
+  THIRD_PARTY_NOTICES.md.
+
+Other third-party dependencies, datasets, score files, pretrained models, and
+externally sourced materials are not relicensed by this MIT License and retain
+their respective terms.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -1,0 +1,19 @@
+EURECOM CQCC PACKAGE — LICENSE NOTICE
+
+The ASVspoof 2019 upstream CQCC package at:
+https://github.com/nesl/asvspoof2019/tree/master/baseline/CQCC_v1.0
+
+identifies Copyright (C) 2016 EURECOM, France, and states that the CQCC package
+is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike
+4.0 International license (CC BY-NC-SA 4.0).
+
+Canonical license URL:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Official legal code:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en
+
+The project file src/features/cqt.py is a Python port/adaptation associated with
+this CQCC implementation. See THIRD_PARTY_NOTICES.md for scope and attribution.
+This file is a license reference notice; the canonical URL above contains the
+complete legal code.

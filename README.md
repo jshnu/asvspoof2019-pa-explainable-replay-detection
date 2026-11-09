@@ -172,10 +172,16 @@ Zenodo has generated it.
 
 ## License
 
-The original code developed for this project is licensed under the MIT License.
+The root MIT License applies only to original project code authored for this
+repository. It excludes the third-party and adapted components listed below.
 
-The third-party t-DCF evaluation implementation in `tools/tdcf/` is separately licensed under **CC BY-NC-SA 4.0** and is excluded from the MIT License.
+- `tools/tdcf/` — ASVspoof 2019 t-DCF implementation, CC BY-NC-SA 4.0.
+- `src/features/cqt.py` — Python port/adaptation of the EURECOM CQCC package
+  and CQT Toolbox routines; see the two license-reference files under
+  `licenses/` and `THIRD_PARTY_NOTICES.md`.
 
-Please review [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and the individual license files before reusing or redistributing components.
-
-The ASVspoof dataset and other third-party materials are not relicensed by this repository.
+The ASVspoof dataset, official ASV score files, and external dependencies are
+not relicensed by this repository. Review `THIRD_PARTY_NOTICES.md` and each
+component's license references before reuse. The CC BY-NC-SA components have
+NonCommercial and ShareAlike conditions; the root MIT grant does not remove
+those conditions.

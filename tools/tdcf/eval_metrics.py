@@ -126,7 +126,7 @@ def compute_tDCF(bonafide_score_cm, spoof_score_cm, Pfa_asv, Pmiss_asv, Pmiss_sp
           France, June 2018 (https://www.isca-speech.org/archive/Odyssey_2018/pdfs/68.pdf)
 
       [2] ASVspoof 2019 challenge evaluation plan
-          TODO: <add link>
+          https://www.asvspoof.org/asvspoof2019/asvspoof2019_evaluation_plan.pdf
     """
 
 

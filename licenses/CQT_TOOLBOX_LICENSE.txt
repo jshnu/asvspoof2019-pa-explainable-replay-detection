@@ -1,0 +1,29 @@
+CQT TOOLBOX 2013 — LICENSE NOTICE
+
+The CQT Toolbox 2013 routines included in the upstream ASVspoof CQCC package
+are documented in that package's README as licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 3.0 Unported license (CC BY-NC-SA 3.0).
+
+The relevant original routines and source headers identify these authors and
+copyright notices:
+- nsgcqwin.m: Copyright (C) 2013 Nicki Holighaus, Christian Schörkhuber.
+- nsgtf_real.m: Copyright (C) 2013 Nicki Holighaus.
+- winfuns.m: Copyright (C) 2013 Nicki Holighaus.
+
+The source comments also identify Gino Velasco among the CQT Toolbox authors.
+
+Upstream source directory:
+https://github.com/nesl/asvspoof2019/tree/master/baseline/CQCC_v1.0/CQT_toolbox_2013
+
+Canonical license URL:
+https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+Official legal code:
+https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.en
+
+CC BY-NC-SA 3.0 Section 4(b)(ii) allows an adaptation to be distributed under
+a later version with the same License Elements. The Python port/adaptation in
+src/features/cqt.py is identified as CC BY-NC-SA 4.0; the upstream CQT Toolbox
+attribution and source notices remain applicable. See THIRD_PARTY_NOTICES.md.
+This file is a license reference notice; the canonical URL above contains the
+complete legal code.

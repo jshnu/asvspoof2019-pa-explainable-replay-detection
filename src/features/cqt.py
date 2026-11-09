@@ -7,6 +7,17 @@ This module ports the supplied MATLAB routines:
 
 It intentionally exposes the filterbank and NSGT separately so their
 intermediate outputs can be compared with MATLAB before wiring in cqt.m.
+
+
+Provenance and license notice:
+This Python port/adaptation includes routines derived from the EURECOM CQCC
+package (Copyright (C) 2016 EURECOM, France; CC BY-NC-SA 4.0) and CQT Toolbox
+2013 routines (Copyright (C) 2013 Nicki Holighaus and, for relevant routines,
+Christian Schörkhuber; CC BY-NC-SA 3.0). The adapted material in this file is
+identified as CC BY-NC-SA 4.0. See licenses/CQCC_EURECOM_LICENSE.txt,
+licenses/CQT_TOOLBOX_LICENSE.txt, and THIRD_PARTY_NOTICES.md for attribution,
+source links, and license references. This file is excluded from the root MIT
+License.
 """
 from __future__ import annotations
 
