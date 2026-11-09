@@ -6,7 +6,7 @@ Except for third-party components explicitly identified as
 being subject to separate licenses, this MIT License applies
 only to original code authored for this project.
 
-In particular, the code in tools/tdcf/ is excluded from
+In particular, the code in tools/tdcf/ and src/features/cqt.py is excluded from
 this license and remains subject to its original
 CC BY-NC-SA 4.0 license and associated notices.
 
