@@ -1,8 +1,8 @@
-# ASVspoof 2019 PA — Explainable Replay-Attack Detection
+# ASVspoof 2019 PA - Explainable Replay-Attack Detection
 
 This repository contains the Python implementation and reproducibility workflow for replay-attack countermeasure experiments on the ASVspoof 2019 Physical Access (PA) corpus.
 
-The implementation extracts three utterance-level feature groups—CQCC, TECC/TKEO, and RLFCC/acoustic—then evaluates seven feature-group ablations (E1–E7) with XGBoost. A separate E7_FINAL workflow tunes the fused model using the official training and development splits, evaluates it once on the official evaluation split, and produces SHAP explanations and post-hoc condition analyses.
+The implementation extracts three utterance-level feature groups-CQCC, TECC/TKEO, and RLFCC/acoustic-then evaluates seven feature-group ablations (E1–E7) with XGBoost. A separate E7_FINAL workflow tunes the fused model using the official training and development splits, evaluates it once on the official evaluation split, and produces SHAP explanations and post-hoc condition analyses.
 
 The notebooks orchestrate the existing source modules and scripts in this repository. They do not reimplement the feature extractors, model trainer, t-DCF calculation, tuning procedure, or SHAP algorithms.
 
@@ -10,14 +10,14 @@ The notebooks orchestrate the existing source modules and scripts in this reposi
 
 Keep the complete source tree when publishing this repository, especially:
 
-- `src/data/` — protocol parsing, manifests, audio access, and validation.
-- `src/features/` — CQCC, TKEO/TECC, and acoustic feature implementations.
-- `src/pipeline/` — extraction, cache, aggregation, and fusion pipelines.
-- `src/models/` — XGBoost model and explanation support.
-- `tools/` — tuning, evaluation, official PA min-tDCF, SHAP, condition analysis, paired statistics, and paper-figure scripts.
-- `tests/` — project unit tests.
-- `notebooks/` — the complete reproducibility workflow and the reduced pipeline smoke test.
-- `configs/` — shared, machine-independent configuration templates.
+- `src/data/` - protocol parsing, manifests, audio access, and validation.
+- `src/features/` - CQCC, TKEO/TECC, and acoustic feature implementations.
+- `src/pipeline/` - extraction, cache, aggregation, and fusion pipelines.
+- `src/models/` - XGBoost model and explanation support.
+- `tools/` - tuning, evaluation, official PA min-tDCF, SHAP, condition analysis, paired statistics, and paper-figure scripts.
+- `tests/` - project unit tests.
+- `notebooks/` - the complete reproducibility workflow and the reduced pipeline smoke test.
+- `configs/` - shared, machine-independent configuration templates.
 
 Do not publish a partial source archive that omits `src/data/` or `src/features/`. The notebooks check for these modules and stop when required source files are missing.
 
@@ -175,8 +175,8 @@ Zenodo has generated it.
 The root MIT License applies only to original project code authored for this
 repository. It excludes the third-party and adapted components listed below.
 
-- `tools/tdcf/` — ASVspoof 2019 t-DCF implementation, CC BY-NC-SA 4.0.
-- `src/features/cqt.py` — Python port/adaptation of the EURECOM CQCC package
+- `tools/tdcf/` - ASVspoof 2019 t-DCF implementation, CC BY-NC-SA 4.0.
+- `src/features/cqt.py` - Python port/adaptation of the EURECOM CQCC package
   and CQT Toolbox routines; see the two license-reference files under
   `licenses/` and `THIRD_PARTY_NOTICES.md`.
 
