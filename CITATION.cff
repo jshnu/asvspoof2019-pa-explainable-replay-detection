@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the software release and the associated research article."
+type: software
+title: "ASVspoof 2019 PA: Explainable Replay-Attack Detection"
+version: "0.1.0"
+authors:
+  - name: "C Jishnu Sai"
+    affiliation: "Department of Computer Science and Engineering, Amrita School of Engineering, Bengaluru, India"
+  - name: "Mrunali Bharadwaj D S"
+    affiliation: "Department of Computer Science and Engineering, Amrita School of Engineering, Bengaluru, India"
+  - name: "Ruhika Sai S"
+    affiliation: "Department of Computer Science and Engineering, Amrita School of Engineering, Bengaluru, India"
+  - name: "Dr. Bharath K.P"
+    affiliation: "Department of Computer Science and Engineering, Amrita School of Engineering, Bengaluru, India"url: "https://github.com/jshnu/asvspoof2019-pa-explainable-replay-detection"

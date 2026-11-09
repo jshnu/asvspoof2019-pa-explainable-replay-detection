@@ -2,6 +2,14 @@ MIT License
 
 Copyright (c) 2026 jshnu
 
+Except for third-party components explicitly identified as
+being subject to separate licenses, this MIT License applies
+only to original code authored for this project.
+
+In particular, the code in tools/tdcf/ is excluded from
+this license and remains subject to its original
+CC BY-NC-SA 4.0 license and associated notices.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights

@@ -163,6 +163,16 @@ Before the first public release, copy `CITATION.cff.template` to `CITATION.cff` 
 
 For a persistent citation in a paper, publish a versioned GitHub Release and archive that release with Zenodo. Cite the resulting version-specific DOI rather than only citing the moving `main` branch. See `PAPER_REPOSITORY_CITATION.md` for a citation template.
 
+## License
+
+The original code developed for this project is licensed under the MIT License.
+
+The third-party t-DCF evaluation implementation in `tools/tdcf/` is separately licensed under **CC BY-NC-SA 4.0** and is excluded from the MIT License.
+
+Please review [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and the individual license files before reusing or redistributing components.
+
+The ASVspoof dataset and other third-party materials are not relicensed by this repository.
+
 ## Third-party code and licensing
 
 The ASVspoof 2019 PA corpus and official ASV score files are not included. Obtain them from the authorized ASVspoof/Edinburgh DataShare distribution and follow the dataset's applicable access and licence terms. See `THIRD_PARTY_NOTICES.md` for the evaluation-metric attribution.
