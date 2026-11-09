@@ -10,13 +10,14 @@ Replace the placeholders after creating the public repository and a versioned re
 
 ```bibtex
 @software{asvspoof2019_pa_explainable_replay_detection,
-  author  = {REPLACE WITH THE REPOSITORY AUTHORS},
+  author  = {C Jishnu Sai and
+             Mrunali Bharadwaj D S and
+             Ruhika Sai S and
+             Bharath K.P},
   title   = {ASVspoof 2019 PA: Explainable Replay-Attack Detection},
   year    = {2026},
-  version = {v0.1.0},
-  url     = {https://github.com/REPLACE_WITH_USERNAME/asvspoof2019-pa-explainable-replay-detection}
-  % doi = {REPLACE WITH THE ZENODO DOI AFTER ARCHIVING}
+  version = {0.1.0},
+  url     = {https://github.com/jshnu/asvspoof2019-pa-explainable-replay-detection}
 }
 ```
 
-Do not include a made-up DOI. Add the `doi` field only after Zenodo has created the record.

@@ -159,9 +159,16 @@ For a reproducibility issue, include the failing notebook cell, the complete err
 
 ## Citing this repository
 
-Before the first public release, copy `CITATION.cff.template` to `CITATION.cff` and replace the author and repository URL placeholders with the correct information. GitHub uses the root-level `CITATION.cff` to display a **Cite this repository** prompt.
+This repository includes a root-level CITATION.cff file containing
+the software citation metadata. GitHub uses this file to display
+the "Cite this repository" option.
 
-For a persistent citation in a paper, publish a versioned GitHub Release and archive that release with Zenodo. Cite the resulting version-specific DOI rather than only citing the moving `main` branch. See `PAPER_REPOSITORY_CITATION.md` for a citation template.
+Keep the authors, version, and repository URL synchronized with
+each published release.
+
+For a persistent archival citation, publish a versioned GitHub
+Release and archive it using Zenodo. Add the DOI only after
+Zenodo has generated it.
 
 ## License
 
@@ -172,9 +179,3 @@ The third-party t-DCF evaluation implementation in `tools/tdcf/` is separately l
 Please review [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and the individual license files before reusing or redistributing components.
 
 The ASVspoof dataset and other third-party materials are not relicensed by this repository.
-
-## Third-party code and licensing
-
-The ASVspoof 2019 PA corpus and official ASV score files are not included. Obtain them from the authorized ASVspoof/Edinburgh DataShare distribution and follow the dataset's applicable access and licence terms. See `THIRD_PARTY_NOTICES.md` for the evaluation-metric attribution.
-
-This source archive does not add a project-wide `LICENSE` file. Before describing the repository as open source or granting reuse rights, review the provenance and licence terms of all included code, particularly `tools/tdcf/eval_metrics.py`, then add a licence that you are authorized to apply. A public GitHub repository without a licence remains subject to default copyright rules.
